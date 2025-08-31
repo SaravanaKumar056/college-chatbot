@@ -1,0 +1,87 @@
+/* Enhanced Stylesheet for College Chatbot
+  -----------------------------------------
+  This file contains all the styles for the chat interface.
+  Feel free to modify and add your own styles here!
+*/
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.chat-bubble {
+    max-width: 80%;
+    word-wrap: break-word;
+    /* Adding a subtle shadow for depth */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.chat-bubble-user {
+    background-color: #3B82F6; /* blue-500 */
+    color: white;
+}
+
+.chat-bubble-bot {
+    background-color: #F3F4F6; /* gray-100 */
+    color: #1F2937; /* gray-800 */
+    border: 1px solid #E5E7EB; /* gray-200 */
+}
+
+/* Custom scrollbar for a cleaner look */
+#chat-box::-webkit-scrollbar {
+    width: 8px;
+}
+
+#chat-box::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+#chat-box::-webkit-scrollbar-thumb {
+    background: #d1d5db; /* gray-300 */
+    border-radius: 4px;
+}
+
+#chat-box::-webkit-scrollbar-thumb:hover {
+    background: #9ca3af; /* gray-400 */
+}
+
+/* --- Additional UI Upgrades --- */
+
+/* Style for the example prompt buttons */
+.example-prompt {
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.example-prompt:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    background-color: #E5E7EB; /* gray-200 */
+}
+
+/* Animation for the send button */
+.send-button {
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.send-button:hover {
+    transform: scale(1.05);
+}
+
+.send-button:active {
+    transform: scale(0.98);
+}
+
+/* Subtle animation for new messages appearing */
+@keyframes slide-in {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.message-wrapper {
+    animation: slide-in 0.4s ease;
+}
