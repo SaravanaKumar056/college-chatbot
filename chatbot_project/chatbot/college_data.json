@@ -143,6 +143,223 @@
     "patterns": [],
     "responses": [
       "Sorry, I didn't understand that. Can you try asking differently?",
+    "I'm not sure how to answer that. Could you rephrase?"
+    ]
+  },
+  {
+    "tag": "college_location",
+    "patterns": [
+      "Where is your college located?",
+      "Location of the college?",
+      "College address?",
+      "Where is your campus?",
+      "In which city is your college?"
+    ],
+    "responses": [
+      "Our college is located in the city of Coimbatore, Tamil Nadu."
+    ]
+  },
+  {
+    "tag": "college_name",
+    "patterns": [
+      "What is your college name?",
+      "Name of your college?",
+      "Tell me your college name",
+      "What's the name of your institution?"
+    ],
+    "responses": [
+      "The name of the college is Hindustan College of Arts and Science, often called HICAS."
+    ]
+  },
+  {
+    "tag": "college_website",
+    "patterns": [
+      "What is the official website?",
+      "college website address?",
+      "Do you have a website?",
+      "official site"
+    ],
+    "responses": [
+      "Yes, our official website is www.hicas.ac.in. You can find detailed information there."
+    ]
+  },
+  {
+    "tag": "available_courses",
+    "patterns": [
+      "What courses are available?",
+      "Which courses do you offer?",
+      "List the courses",
+      "Available courses in your college?",
+      "Courses offered?"
+    ],
+    "responses": [
+      "We offer a wide range of undergraduate and postgraduate courses, including BSc AI & ML, BCA, B.Com, BBA, and many more across various disciplines."
+    ]
+  },
+  {
+    "tag": "your_department",
+    "patterns": [
+      "What is your department?",
+      "Which department are you in?",
+      "Tell me your course",
+      "What's your stream?"
+    ],
+    "responses": [
+      "I represent all departments, but this project was developed by students from the BSc Artificial Intelligence and Machine Learning department."
+    ]
+  },
+  {
+    "tag": "college_timings",
+    "patterns": [
+      "What are the college timings?",
+      "When does college start and end?",
+      "College timing?",
+      "At what time is the college open?",
+      "College schedule?"
+    ],
+    "responses": [
+      "The standard college timings are from 9:00 AM to 4:00 PM, Monday through Friday."
+    ]
+  },
+  {
+    "tag": "principal_name",
+    "patterns": [
+      "Who is your principal?",
+      "What's the name of your principal?",
+      "Tell me the college principal name",
+      "Principal name?"
+    ],
+    "responses": [
+      "The respected Principal of our college is Dr. G. Baskaran."
+    ]
+  },
+  {
+    "tag": "contact_info",
+    "patterns": [
+      "How can I contact the college?",
+      "What is the college phone number?",
+      "college email address",
+      "contact details"
+    ],
+    "responses": [
+      "You can contact the college office at +91-422-4440555 or email us at hicas@hindusthan.net."
+    ]
+  },
+  {
+    "tag": "admission_process",
+    "patterns": [
+      "How do I apply for admission?",
+      "What is the admission process?",
+      "How to get admission?",
+      "Tell me about admissions"
+    ],
+    "responses": [
+      "Admissions are based on the guidelines of Bharathiar University. You can apply online through our official website's admission portal."
+    ]
+  },
+  {
+    "tag": "accreditation_naac",
+    "patterns": [
+      "What is the NAAC grade?",
+      "Is the college accredited?",
+      "NAAC accreditation details"
+    ],
+    "responses": [
+      "Yes, Hindustan College of Arts and Science is accredited by NAAC with an 'A+' Grade, which reflects our high academic standards."
+    ]
+  },
+  {
+    "tag": "college_motto",
+    "patterns": [
+      "What is the college motto?",
+      "What is your motto?",
+      "college tagline"
+    ],
+    "responses": [
+      "Our college motto is 'To Make Every Man a Success'."
+    ]
+  },
+  {
+    "tag": "cafeteria_info",
+    "patterns": [
+      "Do you have a cafeteria?",
+      "Tell me about the canteen",
+      "Is food available on campus?",
+      "cafeteria details"
+    ],
+    "responses": [
+      "Yes, we have a spacious and hygienic cafeteria on campus that offers a variety of food and refreshments for students and staff."
+    ]
+  },
+  {
+    "tag": "hostel_facility",
+    "patterns": [
+      "Is hostel facility available?",
+      "Do you have hostel?",
+      "Boys and girls hostel available?",
+      "Hostel details?",
+      "Is there a hostel?"
+    ],
+    "responses": [
+      "Yes, we provide well-maintained and secure hostel facilities for both boys and girls."
+    ]
+  },
+  {
+    "tag": "dress_code",
+    "patterns": [
+      "What is the dress code?",
+      "What should I wear?",
+      "Is uniform compulsory?",
+      "What kind of dress is required?"
+    ],
+    "responses": [
+      "A formal dress code is mandatory on all working days to maintain a professional academic environment."
+    ]
+  },
+  {
+    "tag": "placement_support",
+    "patterns": [
+      "Is there placement support?",
+      "Do you help with placements?",
+      "Are placements provided?",
+      "Placement details?",
+      "College placement support?"
+    ],
+    "responses": [
+      "Absolutely. Our college has a dedicated placement cell that provides excellent training and support to ensure students are well-prepared for campus interviews."
+    ]
+  },
+  {
+    "tag": "library_location",
+    "patterns": [
+      "Where is the library located?",
+      "Library location?",
+      "Tell me where the library is",
+      "Where can I find the library?"
+    ],
+    "responses": [
+      "Our central library is located on the first floor of the main administrative building."
+    ]
+  },
+  {
+    "tag": "fee_type",
+    "patterns": [
+      "What is the fee?",
+      "Tell me about fee structure",
+      "What is the fee type?",
+      "How much is the college fee?",
+      "Fees for this course?",
+      "Fee details please"
+    ],
+    "responses": [
+      "Our college follows both government-aided and self-financed fee structures depending on the course. For specific details, it is best to check the website or contact the admissions office."
+    ]
+  },
+  {
+    "tag": "unknown",
+    "patterns": [],
+    "responses": [
+      "Sorry, I didn't understand that. Can you try asking differently?",
       "I'm not sure how to answer that. Could you rephrase?"
     ]
   }
