@@ -30,7 +30,7 @@ SECRET_KEY = 'django-insecure-adt_9cn%^(^3nm_o9n3s2=zy@=k8$zn7#9py(4^78d=nt*fyk3
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['college-chatbot-81cz.onrender.com']
 
 
 # Application definition
