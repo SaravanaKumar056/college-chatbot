@@ -4,7 +4,7 @@ import google.generativeai as genai
 # --- IMPORTANT ---
 # 1. Get your API key from Google AI Studio: https://aistudio.google.com/app/apikey
 # 2. Paste your Google AI API key directly here.
-api_key = "AIzaSyAcf5RD-mMCZCuNMwbccU8mhj61ORIzYPI"
+api_key = os.getenv("GOOGLE_API_KEY") 
 
 # This check now correctly looks for the placeholder text, not your actual key.
 # This ensures it only triggers if you haven't replaced the key.
@@ -34,7 +34,7 @@ def chat_with_bot(prompt):
         response = chat.send_message(prompt)
         return response.text
     except Exception as e:
-        
+
         print(f"An error occurred: {e}")
         return "Sorry, I couldn't process that request."
 
@@ -47,9 +47,3 @@ if __name__ == "__main__":
             break
         reply = chat_with_bot(user_input)
         print("Bot:", reply)
-
-
-
-
-
-       # AIzaSyAcf5RD-mMCZCuNMwbccU8mhj61ORIzYPI
