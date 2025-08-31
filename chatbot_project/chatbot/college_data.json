@@ -1,0 +1,149 @@
+[
+  {
+    "tag": "college_location",
+    "patterns": [
+      "Where is your college located?",
+      "Location of the college?",
+      "College address?",
+      "Where is your campus?",
+      "In which city is your college?"
+    ],
+    "responses": [
+      "Our college is in Coimbatore."
+    ]
+  },
+  {
+    "tag": "college_name",
+    "patterns": [
+      "What is your college name?",
+      "Name of your college?",
+      "Tell me your college name",
+      "What's the name of your institution?"
+    ],
+    "responses": [
+      "Hindustan College of Arts and Science."
+    ]
+  },
+  {
+    "tag": "available_courses",
+    "patterns": [
+      "What courses are available?",
+      "Which courses do you offer?",
+      "List the courses",
+      "Available courses in your college?",
+      "Courses offered?"
+    ],
+    "responses": [
+      "BSc AI and ML, BCA, BCom, BBA and more."
+    ]
+  },
+  {
+    "tag": "your_department",
+    "patterns": [
+      "What is your department?",
+      "Which department are you in?",
+      "Tell me your course",
+      "What's your stream?"
+    ],
+    "responses": [
+      "BSc Artificial Intelligence and Machine Learning."
+    ]
+  },
+  {
+    "tag": "college_timings",
+    "patterns": [
+      "What are the college timings?",
+      "When does college start and end?",
+      "College timing?",
+      "At what time is the college open?",
+      "College schedule?"
+    ],
+    "responses": [
+      "9 AM to 4 PM from Monday to Friday."
+    ]
+  },
+  {
+    "tag": "principal_name",
+    "patterns": [
+      "Who is your principal?",
+      "What's the name of your principal?",
+      "Tell me the college principal name",
+      "Principal name?"
+    ],
+    "responses": [
+      "Dr. G. Baskaran is our principal."
+    ]
+  },
+  {
+    "tag": "hostel_facility",
+    "patterns": [
+      "Is hostel facility available?",
+      "Do you have hostel?",
+      "Boys and girls hostel available?",
+      "Hostel details?",
+      "Is there a hostel?"
+    ],
+    "responses": [
+      "Yes, both boys and girls hostels are available."
+    ]
+  },
+  {
+    "tag": "dress_code",
+    "patterns": [
+      "What is the dress code?",
+      "What should I wear?",
+      "Is uniform compulsory?",
+      "What kind of dress is required?"
+    ],
+    "responses": [
+      "Formal dress is mandatory on all working days."
+    ]
+  },
+  {
+    "tag": "placement_support",
+    "patterns": [
+      "Is there placement support?",
+      "Do you help with placements?",
+      "Are placements provided?",
+      "Placement details?",
+      "College placement support?"
+    ],
+    "responses": [
+      "Yes, there is good placement support in our college."
+    ]
+  },
+  {
+    "tag": "library_location",
+    "patterns": [
+      "Where is the library located?",
+      "Library location?",
+      "Tell me where the library is",
+      "Where can I find the library?"
+    ],
+    "responses": [
+      "It is located on the first floor of the main building."
+    ]
+  },
+  {
+    "tag": "fee_type",
+    "patterns": [
+      "What is the fee?",
+      "Tell me about fee structure",
+      "What is the fee type?",
+      "How much is the college fee?",
+      "Fees for this course?",
+      "Fee details please"
+    ],
+    "responses": [
+      "Our college has government-aided and self-financed fee structures."
+    ]
+  },
+  {
+    "tag": "unknown",
+    "patterns": [],
+    "responses": [
+      "Sorry, I didn't understand that. Can you try asking differently?",
+      "I'm not sure how to answer that. Could you rephrase?"
+    ]
+  }
+]

@@ -1,0 +1,28 @@
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore virtual environment directories
+venv/
+env/
+
+# Ignore environment variable files
+*.env
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+
+# Ignore log files
+*.log
+
+# Ignore compiled files
+*.so
+*.dll
+*.dylib
+*.exe
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.dbgit init
