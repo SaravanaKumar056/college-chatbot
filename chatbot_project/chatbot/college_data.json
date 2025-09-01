@@ -355,6 +355,19 @@
       "Our college follows both government-aided and self-financed fee structures depending on the course. For specific details, it is best to check the website or contact the admissions office."
     ]
   },
+    {
+    "tag": "creator_info",
+    "patterns": [
+      "who created you",
+      "who is your creator",
+      "who is saravanakumar",
+      "who is the founder of you",
+      "who made you"
+    ],
+    "responses": [
+      "I was created by Saravanakumar, a talented student from the BSc Artificial Intelligence and Machine Learning department."
+    ]
+  },
   {
     "tag": "unknown",
     "patterns": [],
@@ -364,3 +377,4 @@
     ]
   }
 ]
+ 
